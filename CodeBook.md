@@ -15,7 +15,7 @@ tidy_dataset.txt
 
 The file is a CSV text file (ASCII), the values are separated by white space.
 
-## Data set variables
+## Dataset variables
 
 ### Factor variables
 

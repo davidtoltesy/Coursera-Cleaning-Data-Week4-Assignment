@@ -1,6 +1,5 @@
-# Coursera
-# Getting and Cleaning Data
-# Week 4 Assignment
+# Coursera - Getting and Cleaning Data
+## Week 4 Assignment
 
 This repository contains my submitted files for the Week 4 Assignment of the Coursera Getting and Cleaning Data Course.  It contains the following files:
 
@@ -19,16 +18,18 @@ PLEASE NOTE. The working directory must be changed in order to run this script o
 
 The data are in two folders, train and test. The files are saved as X_train, X_test, y_train, y_test, subject_train and subject_test. The read.table script is used to read the data from these files into R.
 
-THe rbind() function is used to merge the relating data sets together by rows.
+THe `rbind()` function is used to merge the relating data sets together by rows.
 
-`subject_total    <- rbind(subject_train.txt + subject_test.txt)`
-`activity_total   <- rbind(X_train.txt + X_test.txt)`
-`features_total   <- rbind(Y_train.txt + Y_test.txt)`
+`subject_total`    <- rbind(subject_train.txt + subject_test.txt)
+
+`activity_total`   <- rbind(X_train.txt + X_test.txt)
+
+`features_total`   <- rbind(Y_train.txt + Y_test.txt)
 
 The `feature.txt` file containing the function names.
 
 
-The run_analysis.R script completes the following actions:
+**The run_analysis.R script completes the following actions:**
 
 - Loads the data files into separate objects for manipulation
 - Merges the training and test data sets into one data set
